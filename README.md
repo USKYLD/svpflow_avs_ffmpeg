@@ -12,7 +12,8 @@ This project aims to use ffmpeg to call avs scripts and use svpflow to frame vid
 6.  Finally , double-click the .bat script to frame.
 
 
-h264_nvenc AVOptions:
+## h264_nvenc AVOptions:
+```
   -preset            <int>        E..V.... Set the encoding preset (from 0 to 11) (default medium)
      default                      E..V....
      slow                         E..V.... hq 2 passes
@@ -87,10 +88,11 @@ h264_nvenc AVOptions:
   -init_qpB          <int>        E..V.... Initial QP value for B frame (from -1 to 51) (default -1)
   -init_qpI          <int>        E..V.... Initial QP value for I frame (from -1 to 51) (default -1)
   -qp                <int>        E..V.... Constant quantization parameter rate control method (from -1 to 51) (default -1)
+```
 
 
-
-libx264 AVOptions:
+## libx264 AVOptions:
+```
   -preset            <string>     E..V..... Set the encoding preset (cf. x264 --fullhelp) (default "medium")
   -tune              <string>     E..V..... Tune the encoding params (cf. x264 --fullhelp)
   -profile           <string>     E..V..... Set profile restrictions (cf. x264 --fullhelp)
@@ -169,3 +171,4 @@ libx264 AVOptions:
   -sc_threshold      <int>        E..V..... Scene change threshold (from INT_MIN to INT_MAX) (default -1)
   -noise_reduction   <int>        E..V..... Noise reduction (from INT_MIN to INT_MAX) (default -1)
   -x264-params       <string>     E..V..... Override the x264 configuration using a :-separated list of key=value parameters
+```
