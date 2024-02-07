@@ -1,6 +1,6 @@
 # svpflow_avs_ffmpeg
 
-## AIm :
+## Aim :
 This project aims to use ffmpeg to call avs scripts and use svpflow to frame videos. 
 
 ## Directions:
