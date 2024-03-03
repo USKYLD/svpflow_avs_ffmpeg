@@ -2,12 +2,14 @@
 
 ## Aim :
 This project aims to use ffmpeg to call avs scripts and use svpflow to frame videos. 
-Use vspipe,x265
-Use mkvmerge
-Use qsvencc
-Use ffmpeg
-Because ffmpeg sometimes go wrong,try x265 or qsvencc/nvenccc
-Avi only support yv12,so try vpy to encode p010
+- Use vspipe,x265
+- Use mkvmerge
+- Use qsvencc
+- Use ffmpeg
+
+
+- Because ffmpeg sometimes go wrong,try x265 or qsvencc/nvenccc
+- Avi only support yv12,so try vpy to encode p010
 
 ## Directions:
 1. First, you need to install AviSynth+ and ffmpeg_shared yourself, copy all the contents in the plugins64 folder of this project to the plugins64 folder under its installation directory (default is C:\Program Files (x86)\AviSynth+) .
